@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="" href="css/gamesStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|VT323" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="js/lib/jquery-3.3.1.min.js"></script>
+    <!--Player-->
+    <script src="audiojs/audio.min.js"></script>
+
+    <title>ARCADIA</title>
+
+  </head>
+  <body onload="relojJS(),setTimeout(resize,3000);">
+    <!--Header-->
+  <header class="">
+    <div id="logo" class="logo"></div>
+
+       <div class="mainClock"><!--Reloj-->
+
+        <div class="fecha">
+            <p><span>&nbsp</span>Hoy es: </p>
+
+            <p id="dia"> </p>
+            <p>/</p>
+            <p id="mes"></p>
+            <p>/</p>
+            <p id="anio"></p>
+
+        </div>
+        <div class="numbers">
+            <p>Hora: </p>
+            <p id="horas"></p>
+            <p>:</p>
+            <p id="minutos"></p>
+            <p>:</p>
+            <p id="segundos"></p>
+        </div>
+    </div><!--Fin del Reloj-->
+
+    <div class="player">
+
+    <script>
+    audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+      });
+    </script>
+    <audio src="mp3/tetris.mp3" preload="auto"/>
+      </div>
+<!-- Barra Navegacion-->
+    <nav>
+       <ul>
+        <li></span><a href="arcadia.html">Juegos</a></li>
+        <li></span><a href="#">Novedades</a></li>
+        <li><a href="#">Historia</a></li>
+        <li></span><a href="#">Noticias</a></li>
+        <li></span><a href="contactoGames.html">Contacto</a></li>
+      </ul>
+    </nav>
+<!--Fin de Barra Navegacion-->
+<!--Fin Header-->
+<!----------------------------------------------------->
+<!----------------------------------------------------->
+    </header>
+<!--Slide-->
+<!----------------------------------------------------->
+<!----------------------------------------------------->
+    <div class="slide">
+      <ul>
+
+        <li><img src="img/super_mario.jpg" alt="01"></li>
+        <li><img src="img/doom.jpg" alt="02"></li>
+        <li><img src="img/zelda.jpg" alt="03"></li>
+        <li><img src="img/contra.jpg" alt="04"></li>
+      </ul>
+
+    </div>
+<!----------------------------------------------------->
+<!----------------------------------------------------->
+<!--Fin del Slide-->
+    <div class="barra"></div>
+
+
+<!--Section-->
+<!----------------------------------------------------->
+<!----------------------------------------------------->
+    <section style="background-color: #8080807a;">
+        <div class="cajas">
+          <h3>Los Mas Jugados</h3>
+          <div class="caja">
+              <img src="img/mario.jpg" alt="img1" width="100%">
+              <button class="boton" id="myBtn">Leer Mas..</button>
+<!-- Modal content -->
+<!----------------------------------------------------->
+<!----------------------------------------------------->
+             <div id="myModal" class="modal">
+              <div class="modal-content">
+              <h5>SUPER MARIO BROS</h5>
+              <img src="img/mario.jpg" alt="img1" width="100%">
+              <p>El juego describe las aventuras de dos fontaneros, Mario y Luigi, quienes deben rescatar a la Princesa Peach, quién fue secuestrada por el rey de los Koopas, Bowser y salvar al Reino Champiñón de este mismo. A través de ocho diferentes niveles de juego, los jugadores pueden controlar a uno de los dos hermanos y deben enfrentarse finalmente a cada uno de los enemigos de cada castillo para liberar a la Princesa Peach. </p></div>
+            </div>
+           </div>
+
+          <div class="caja">
+              <img src="img/pacman.jpg" alt="img1" width="100%">
+              <button class="boton" id="myBtn1">Leer Mas..</button>
+
+<!-- Modal content -->
+<!----------------------------------------------------->
+<!----------------------------------------------------->
+              <div id="myModal_1" class="modal">
+              <div class="modal-content">
+              <h5>PACMAN</h5>
+              <img src="img/pacman.jpg" alt="img2" width="100%">
+              <p>El objetivo del juego es comer todos los puntos que hay en un laberinto, cuidándose de cuatro fantasmas que a su vez le andan persiguiendo, en caso de alcanzarlo, reducen a Pacman como si fuera un globo que se desinfla, pero Pacman cuenta con cuatro puntos de poder especial para comerse a los fantasmas, si estos son alcanzados se convierten en unos ojos flotantes que se dirigen a la casilla central para revestirse como fantasmas. </p></div>
+            </div>
+           </div>
+
+          <div class="caja">
+              <img src="img/megaman.jpg" alt="img3" width="100%">
+              <button class="boton" id="myBtn2">Leer Mas..</button>
+
+<!-- Modal content -->
+<!----------------------------------------------------->
+<!----------------------------------------------------->
+              <div id="myModal_2" class="modal">
+              <div class="modal-content">
+              <h5>MEGAMAN</h5>
+              <img src="img/megaman.jpg" alt="img3" width="100%">
+              <p>Él es un pequeño Robot Master que fue creado por el Dr. Light, principalmente para ser un ayudante de laboratorio que podría demostrar un avanzado sitema de inteligencia artificial capaz de supervisar el trabajo de otras máquinas. El tiene un hermano mayor llamado Proto Man y una hermana menor llamada Roll, también tiene un perro robot llamado Rush. Mega Man siempre trata de evitar la completa dominacion del mundo de su enemigo el Dr. Wily y sus Robots Masters creados o manipulados por él.</p></div>
+            </div>
+           </div>
+
+          <div class="caja">
+              <img src="img/stf2.jpg" alt="img4" width="100%">
+              <button class="boton" id="myBtn3">Leer Mas..</button>
+
+<!-- Modal content -->
+<!----------------------------------------------------->
+<!----------------------------------------------------->
+              <div id="myModal_3" class="modal">
+              <div class="modal-content">
+              <h5>STREET FIGHTER II - World Warrior</h5>
+              <img src="img/stf2.jpg" alt="img4" width="100%">
+              <p>Es la segunda entrega de la saga Street Fighter y la secuela del original Street Fighter publicado en 1987. Primer juego de la serie Street Fighter en alcanzar fama mundial e iniciador del fenómeno de los videojuegos en el género de la lucha. Desarrollado por la empresa Capcom. En esta saga introdujo una velocidad de juego más lenta y cuenta con 8 personajes a elegir, 4 jefes finales y un final diferente por cada personaje. A su vez, poseía un control que, al igual que su antecesor, utiliza combinaciones de la palanca y 6 botones para ejecutar ataques especiales durante la pelea, como el lanzamiento de bolas de fuego (abajo, diagonal abajo-adelante, adelante y puñetazo) o el "dragon punch", tan copiados en los juegos que le sucedieron.</p></div>
+            </div>
+           </div>
+
+        </div>
+        <div class="side-bar">
+          <h3>Retro Consolas</h3>
+           <div class="caja">
+              <ul>
+                <li><img src="img/mini_nes.jpg" alt="nes">
+                <p>Mini Nes</p></li>
+                <li><img src="img/mini_snes.jpeg" alt="snes">
+                <p>Mini Snes</p></li>
+                <li><img src="img/mini_play.jpg" alt="play">
+                <p>Mini Playstation</p></li>
+              </ul>
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+    <!--Fin de Section-->
+
+    <!--Bottom-->
+    <div class="bottom">
+      <div class="contacto">
+        <h4>Contacto</h4>
+        <ul>
+          <li><p><i class="fas fa-phone-square"></i> +57 (011) 5234-5643</p></li>
+          <li><p><i class="fas fa-map-marker-alt"></i> Calle 45F 32 - 45</p></li>
+          <li><p><i class="fas fa-envelope-open-text"></i> logotipo@correo.com</p></li>
+        </ul>
+      </div>
+
+
+
+      <div class="redes">
+            <h4>Redes Sociales</h4>
+                <ul>
+                	<li><a href="http://facebook.com" target="_blank"><img src="img/facebook.png"></a></li>
+                    <li><a href="http://twitter.com" target="_blank"><img src="img/iconoTwitter.png"></a></li>
+                    <li><a href="http://pinterest.com" target="_blank"><img src="img/iconoPinterest.png"></a></li>
+                    <li><a href="http://googleplus.com" target="_blank"><img src="img/iconoGoogle.png"></a></li>
+                </ul>
+        </div>
+
+    </div>
+    <!--Fin de Bottom-->
+
+    <!--Footer-->
+    <footer>
+
+    	 <p>© Sitio desarrollado por Danlsk | Todos los derechos reservados</p>
+
+    </footer>
+    <!--Fin de Footer-->
+
+
+        <script>
+
+         function cerrar(){
+         window.close();
+
+        }
+        </script>
+
+
+
+    </script>
+
+
+  <script type="text/javascript" src="js/popUps.js"></script>
+  <script type="text/javascript" src="js/reloj.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
